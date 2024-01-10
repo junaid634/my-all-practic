@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>junaid</title>
+    <style>
+
+        .header{
+            /* border: 5px dashed blue; */
+            font-family: georgia;
+            font-weight: 10px;
+            background-color: wheat;
+            color: brown;
+            padding-top: 2%;
+            width: 100%;
+            height: 200px;
+            background-image: url(moon1.jpg);
+            background-repeat: no-repeat;
+            margin-top: 5%;
+            /* position: absolute; */
+
+        }
+    
+        .box{
+            height:100px;
+            /* font-weight: 100px; */
+            border: 5px solid blue;
+            border-radius: 10px;
+            background-color: rgb(163, 202, 236);
+            color: brown;
+            /* display: flex; */
+            /* width: ;  */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-grow: 1.5;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            /* text-align: ; */
+            margin-left:10px;
+        }
+       li{
+        display:inline;
+        /* -ms-flex-item-align:center ; */
+
+        border: 1px solid red;
+        
+        /*display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         flex-wrap: wrap;
+         flex-grow: 1.5; */
+
+
+       }
+       body{
+        background-image: url(earth.JPG);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+       }
+    li:hover{
+        border: 2px solid blue;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+    .box:hover{
+        box-shadow: 10px 10px 20px brown;
+        transform: scale(1.1);
+        transition: 1s;
+
+    }
+    div.box{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        justify-content: flex-start;
+    
+
+    }
+    button{
+        background-color: blue;
+        color: rgb(249, 246, 246);
+        border: 2px solid green;
+        border-radius: 7px;
+        height: 40px;
+        width: 200px;
+        margin-left:20px ;
+        visibility: hidden;
+    }
+    h3 , h2{
+        text-align: center;
+        text-decoration: underline dotted rgb(254, 254, 254);
+
+
+    }
+    #logo{
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="header" id="h">
+        <h2 id="logo">JK-Tech</h2>
+        <H3>This is my empire <b>JUNAID KHAN</b>.</H3>
+        <NAv>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>CONTACT</li>
+            </ul>
+        </NAv>
+        <!-- <div id="image">
+            <img src="junaidkhan.jpg" alt="my image" >
+        </div> -->
+
+    </div>
+    <div id="box1" class="box">
+        <img src="female.png" alt="male avator">
+        <h3>For Male</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <div class="box" id="box2">
+        <img src="female.png" alt="female avator">
+        <h3>For Female</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <div class="box" id="box3">
+        <img src="female.png" alt="female avator">
+        <h3>For Female</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <div class="box" id="box4">
+        <img src="female.png" alt="female avator">
+        <h3>For Female</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <div class="box" id="box5">
+        <img src="female.png" alt="female avator">
+        <h3>For Female</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <div class="box" id="box6">
+        <img src="female.png" alt="female avator">
+        <h3>For Female</h3>
+        <p>Here you can add about <br> your employees, who are <br> best in there feilds</p><br>
+    </div>
+    <button>Enter</button>
+    <hr><hr>
+    <!-- <p></p> -->
+</body>
+</html>

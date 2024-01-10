@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>junaid</title>
+    <style>
+        #container{
+            height: 700px;
+            width: 50%;
+            background-color: azure;
+            border: 5px solid black;
+            margin: 10px auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+            text-align: center;
+        }
+        #one{
+            /* grid-column-start:1 ;
+            grid-column-end: 13; */
+        grid-column: 1/13;
+        }
+        #two{
+            grid-column: 1/4;
+            grid-row:  2/11 ;
+        }
+        #three{
+            grid-column: 4/10;
+        }
+        #four{
+            grid-column: 10/13;
+            grid-row: 2/11
+        }
+        #five{
+            grid-column: 4/10;
+            grid-row: 3/11;
+        }
+        #six{
+            grid-column: 1/13;
+
+        }
+        #seven{
+            grid-column: 1/13;
+        }
+ 
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="one" style="background-color:red;">One</div>
+    <div id="two" style="background-color:green;">Two</div>
+    <div id="three" style="background-color: wheat;">Three</div>
+    <div id="four" style="background-color:yellow;">Four</div>
+    <div id="five" style="background-color:yellowgreen;">Five</div>
+    <div id="six" style="background-color:gold;">Six</div>
+    <div id="seven" style="background-color:gainsboro;">7</div>
+    <div id="eight" style="background-color:gray;">8</div>
+    <div id="nine" style="background-color:firebrick;">9</div>
+    <div id="ten" style="background-color:honeydew;">10</div>
+    <div id="eleven" style="background-color:rebeccapurple;">11</div>
+    <div id="twalve" style="background-color:tan;">12</div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+#khan{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    border: 3px solid black;
+   text-align: center;
+}
+li{
+    text-align: left;
+}
+
+
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.divbg{
+    background-color: pink;
+    border: 5px solid black;
+}
+#btn{
+    background-color: blue;
+    columns: white;
+}
+.ul{
+    text-decoration: underline wavy green;
+    /* -moz-text-decoration-lin: ; */
+    color: red;
+}

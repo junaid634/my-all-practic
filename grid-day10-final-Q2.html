@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>junaid</title>
+    <style>
+        #container{
+            height: 600px;
+            width: 50%;
+            border: 5px solid blue;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+            background-color: yellow;
+            margin: 10px auto;
+            
+        }
+        #one{
+            background-color: red;
+            grid-row: 1/6;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="one">one</div>
+        <div id="two">two</div>
+        <div id="three">three</div>
+        <div id="four">Four</div>
+        <div id="five">five</div>
+        <div id="six">six</div>
+        <div id="seven">seven</div>
+    </div>
+    
+</body>
+</html>
